@@ -12,7 +12,7 @@ import qs.Modules.Plugins
 
 PluginSettings {
     id: root
-    pluginId: "linuxWallpaperEngine"
+    pluginId: "linuxWallpaperEnginePPDAware"
 
     property var monitors: Quickshell.screens.map(screen => screen.name)
     property string selectedMonitor: monitors.length > 0 ? monitors[0] : ""
