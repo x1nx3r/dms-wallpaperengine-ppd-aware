@@ -837,6 +837,16 @@ PluginSettings {
                     settingKey: "disableParallax"
                 },
                 {
+                    label: "Pause On Battery",
+                    description: "Pauses rendering when the system is running on battery power",
+                    settingKey: "pauseOnBattery"
+                },
+                {
+                    label: "Pause On Power Saver",
+                    description: "Pauses rendering when the system power profile (via DBus) is set to power-saver",
+                    settingKey: "pauseOnPowerSaver"
+                },
+                {
                     label: "No Fullscreen Pause",
                     description: "Prevents the background pausing when an app is fullscreen",
                     settingKey: "noFullscreenPause"

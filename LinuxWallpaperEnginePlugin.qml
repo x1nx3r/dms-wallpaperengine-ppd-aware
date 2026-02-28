@@ -325,6 +325,8 @@ PluginComponent {
                 if (settings.noAudioProcessing) args.push("--no-audio-processing")
                 if (settings.noFullscreenPause) args.push("--no-fullscreen-pause")
                 if (settings.fullscreenPauseOnlyActive) args.push("--fullscreen-pause-only-active")
+                if (settings.pauseOnBattery) args.push("--pause-on-battery")
+                if (settings.pauseOnPowerSaver) args.push("--pause-on-power-saver")
 
                 return args
             }
