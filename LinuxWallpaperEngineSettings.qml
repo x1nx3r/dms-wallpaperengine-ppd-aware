@@ -839,12 +839,14 @@ PluginSettings {
                 {
                     label: "Pause On Battery",
                     description: "Pauses rendering when the system is running on battery power",
-                    settingKey: "pauseOnBattery"
+                    settingKey: "pauseOnBattery",
+                    defaultVal: true
                 },
                 {
                     label: "Pause On Power Saver",
                     description: "Pauses rendering when the system power profile (via DBus) is set to power-saver",
-                    settingKey: "pauseOnPowerSaver"
+                    settingKey: "pauseOnPowerSaver",
+                    defaultVal: true
                 },
                 {
                     label: "No Fullscreen Pause",
